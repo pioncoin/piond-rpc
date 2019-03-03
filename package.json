@@ -1,12 +1,16 @@
 {
-  "name": "@dashevo/dashd-rpc",
-  "description": "Dash Client Library to connect to Dash Core (dashd) via RPC",
+  "name": "piond-rpc",
+  "description": "Pion Client Library to connect to Pion Core (piond) via RPC",
   "version": "1.2.0",
   "author": {
-    "name": "Stephen Pair",
-    "email": "stephen@bitpay.com"
+    "name": "pioncore",
+    "email": "info@pioncoin.org"
   },
   "contributors": [
+    {
+      "name": "Stephen Pair",
+      "email": "stephen@bitpay.com"
+    },
     {
       "name": "Jeff Garzik",
       "email": "jgarzik@bitpay.com"
@@ -29,12 +33,12 @@
     }
   ],
   "keywords": [
-    "dash",
+    "pion",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashd-rpc"
+    "url": "https://github.com/pioncoin/piond-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -54,7 +58,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/dashevo/dashd-rpc/issues"
+    "url": "https://github.com/pioncoin/piond-rpc/issues"
   },
-  "homepage": "https://github.com/dashevo/dashd-rpc"
+  "homepage": "https://github.com/pioncoin/piond-rpc"
 }
